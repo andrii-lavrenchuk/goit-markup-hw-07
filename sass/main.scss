@@ -1,7 +1,3 @@
-$color: blue;
-$main-width: 100px;
-
-body {
-  background-color: $color;
-  width: $main-width;
-}
+@import './utils/variables';
+@import './components/common';
+@import './components/header';
