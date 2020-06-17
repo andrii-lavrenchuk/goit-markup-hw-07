@@ -1,7 +1,7 @@
 .header {
     display: flex;
     align-items: center;
-    & .main-nav {
+     .main-nav {
         display: flex;
         align-items: center;
       }
@@ -17,16 +17,16 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    & .logo-word{
+     .logo-word{
         color: $primary-text-color;
     }
   }
   .site-nav{
       display: flex;
-      & .item + .item {
+       .item + .item {
           margin-left: 50px;
       }
-      & .link{
+       .link{
         position: relative;
         display: block;
         padding-top: 32px;
@@ -40,7 +40,7 @@
         line-height: 1.14;
         letter-spacing: 0.02em;
       
-        transition: $transition;
+        transition:  color $transition;
         &:hover, &:focus {
             color: $accent-color;
         }
@@ -66,11 +66,11 @@
   }
   .address-list{
       display: flex;
-      & .item + .item {
+       .item + .item {
         display: block;
         margin-left: 50px;
       }
-      & .link {
+      .link {
         display: flex;
         align-items: center;
       
@@ -83,20 +83,20 @@
         line-height: 1.14;
         letter-spacing: 0.02em;
       
-        transition: $transition;
+        transition: color $transition;
       }
       & .link:hover, 
       & .link:focus {
           color: $accent-color;
       }
-      & .email-icon {
+      .email-icon {
 
         width: 16px;
         height: 12px;
         margin-right: 10px;
         fill: currentColor;
       }
-      & .phone-icon {
+       .phone-icon {
         width: 10px;
         height: 15px;
         margin-right: 10px;
