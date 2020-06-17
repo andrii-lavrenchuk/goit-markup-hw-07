@@ -1,17 +1,13 @@
 $title-bg-color: rgba(47, 48, 58, 0.8);
+$item-width: calc((100% - 60px) / 3);
 
-.our-work-title {
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 0;
-}
 .work-list{
     margin-top: 50px;
 
     display: flex;
     justify-content: center;
     .item {
-        width: calc((100% - 60px) / 3);
+        width: $item-width;
         margin-right: 30px;
 
         &:nth-child(3n) {
