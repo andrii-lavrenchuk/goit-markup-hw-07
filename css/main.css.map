@@ -12,7 +12,8 @@
         "../sass/components/_our-work.scss",
         "../sass/components/_team.scss",
         "../sass/components/_customers.scss",
-        "../sass/components/_modal.scss"
+        "../sass/components/_modal.scss",
+        "../sass/components/_portfolio-nav.scss"
     ],
     "names": [],
     "file": "main.css"
