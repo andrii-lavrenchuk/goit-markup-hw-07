@@ -139,29 +139,7 @@ $btn-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
     margin-top: 30px;
     
-   
     
-    .close-button {
-        position: absolute;
-        top: 22px;
-        right: 22px;
-        padding: 0;
-        margin: 0;
-
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        transform: translate(50%, -50%);
-        border: transparent;
-        cursor: pointer;
-
-        background:$close-btn-bg-color;
-        box-shadow: $close-btn-box-shadow;
-    }
-    .close-icon {
-        width: 11px;
-        height: 11px;
-    }
     .button {
         display: inline-block;
         color: $third-color;
@@ -180,6 +158,32 @@ $btn-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         font-size: 16px;
         line-height: 1.87;
         letter-spacing: 0.06em;
+    }
+}
+.close-button {
+    position: absolute;
+    top: 22px;
+    right: 22px;
+    padding: 0;
+    margin: 0;
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transform: translate(50%, -50%);
+    border: transparent;
+    cursor: pointer;
+
+    background:$close-btn-bg-color;
+    box-shadow: $close-btn-box-shadow;
+}
+.close-icon {
+    width: 11px;
+    height: 11px;
+    
+    transition: fill $transition;
+        &:hover {
+            fill: $accent-color;
     }
 }
 .policy {
