@@ -225,6 +225,7 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  font-style: normal;
 }
 
 .address-flex .footer-address {
