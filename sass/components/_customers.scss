@@ -1,54 +1,28 @@
 $item-width: calc((100% - 150px) / 6);
 
-.customers-list{
-    display: flex;
-    margin-top: 50px;
-    .item {
-        width: $item-width;
-        margin-right: 30px;
-    }
+.customers-list {
+  display: flex;
+  margin-top: 50px;
+  .item {
+    width: $item-width;
+    margin-right: 30px;
+  }
 }
 .customer-logo {
-    display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 170px;
-        height: 90px;
-        border: 1px solid $svg-color;
-        border-radius: 4px;
-        fill: $svg-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid $svg-color;
+  border-radius: 4px;
+  fill: $svg-color;
 
-        transition: fill $transition,
-            border-color $transition;
+  transition: fill $transition, border-color $transition;
 
-            .customer-logo-icon-1 {
-                width: 45px;
-                height: 50px;
-            }
-            .customer-logo-icon-2 {
-                width: 40px;
-                height: 52px;
-            } 
-            .customer-logo-icon-3 {
-                width: 41px;
-                height: 43px;
-            }
-            .customer-logo-icon-4 {
-                width: 80px;
-                height: 42px;
-            }
-            .customer-logo-icon-5 {
-                width: 59px;
-                height: 47px;
-            }
-            .customer-logo-icon-6 {
-                width: 89px;
-                height: 46px;
-            }
-
-            &:focus,
-            &:hover {
-                border-color: $accent-color;
-                fill: $accent-color;
-            }
+  &:focus,
+  &:hover {
+    border-color: $accent-color;
+    fill: $accent-color;
+  }
 }
