@@ -712,7 +712,7 @@ img {
 }
 
 .form-input {
-  color: secondary-text-color;
+  color: #757575;
   margin: 0;
   padding-top: 12px;
   padding-bottom: 12px;
@@ -842,7 +842,7 @@ img {
 .checkbox:checked + .checkbox-icon {
   background-color: #2196f3;
   border-color: #2196f3;
-  background-image: url(../images/icon-check.svg);
+  background-image: url(../../images/icon-check.svg);
   background-size: contain;
   background-origin: border-box;
 }
